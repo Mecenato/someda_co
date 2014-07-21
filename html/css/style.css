@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS originnaly from the folks at stndrd.org */
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+/* begin typography & colors */
+
+body {
+font-family: lucida grande, lucida sans unicode,"times new roman",times,serif;
+background-color: #ffffff;
+text-align: left;
+color: #000;
+}
+
+
+p, td {
+line-height: 1.4em;
+font-size: .8em;
+margin-top: 4px;
+}
+
+h1 {
+font-family: Helvetica, Arial, lucida grande, lucida sans unicode;
+color: #000000;
+font-size: 2.7em;
+font-weight: bold;
+}
+
+a{
+	color: #38abe3;
+}
+
+a:hover{
+	color: white;
+	background-color: #38abe3;
+	text-decoration: none;
+}
+
+a.logo{
+}
+
+a.logo:hover{
+	background-color: #ffffff;
+}
+
+
+#footer a{
+	text-decoration: none;
+}
+
+.license{
+	color: #999;
+}
+
+.license:hover{
+	color: #999;
+	background: white;
+}
+
+#page {
+margin-left: auto;
+margin-right: auto;
+margin-top: 90px;
+margin-bottom: auto;
+width: 857px;
+}  
+
+.option {
+	color: #666666;
+	font-weight: bold;
+	width: 150px;
+	float: left;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.links {
+	color: #666666;
+	font-weight: bold;
+	width: 230px;
+	float: left;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.link {
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 5px;		
+	display: block;
+}
+
+.form {
+	color: #666666;
+	font-weight: bold;
+	width: 500px;
+	float: left;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#footer{
+	clear: both;
+	font-size: 10px;
+	color: #999;
+	border-top: 1px solid #e0e0e0;
+	padding-top: 5px;
+	margin-top: 70px;
+	margin-bottom: 90px;
+}
+
+#logos{
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+
+div.clear {
+clear: both;
+}
+
+img {
+border: 0;
+}
